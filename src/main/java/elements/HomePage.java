@@ -1,7 +1,6 @@
 package elements;
 
-import elements.HeaderMenu;
-import elements.LeftMenu;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -35,6 +34,7 @@ public class HomePage {
 
     @FindBy(className = "benefit-txt")
     private List<WebElement> benefitTxt;
+
 
     @FindBy(id = "frame")
     private WebElement iFrame;

@@ -64,6 +64,16 @@
     </repositories>
     <dependencies>
         <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-testng</artifactId>
+            <version>7.3.2</version>
+        </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>7.3.2</version>
+        </dependency>
+        <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-testng</artifactId>
             <version>${allure-testng.version}</version>
@@ -128,6 +138,12 @@
             <id>UI3</id>
             <properties>
                 <testng.suite.file>${project.build.testOutputDirectory}/UISuite3.xml</testng.suite.file>
+            </properties>
+        </profile>
+        <profile>
+            <id>Cucumber</id>
+            <properties>
+                <testng.suite.file>${project.build.testOutputDirectory}/CucumberSuite.xml</testng.suite.file>
             </properties>
         </profile>
     </profiles>

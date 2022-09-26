@@ -59,4 +59,11 @@ public class DifferentElementsPage {
                 .map(WebElement::getText)
                 .collect(Collectors.toList());
     }
+
+    public List<String> getLogsWithoutTime() {
+        return this.logs
+                .stream()
+                .map(s-> s.getText().substring(9))
+                .collect(Collectors.toList());
+    }
 }
