@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="UISuite">
+    <test name="UITests">
+        <packages>
+            <package name="hw2.driver"/>
+            <package name="hw2.ex1"/>
+            <package name="hw2.ex2"/>
+        </packages>
+    </test>
+</suite>
