@@ -5,7 +5,7 @@
     </listeners>
     <test name="UITests3">
         <packages>
-            <package name="hw2"/>
+            <package name="hw2.driver"/>
             <package name="hw4.tests.ex1"/>
             <package name="hw4.tests.ex2"/>
             <package name="hw4.steps"/>
