@@ -83,5 +83,11 @@
                 <testng.suite.file>${project.build.testOutputDirectory}/UISuite.xml</testng.suite.file>
             </properties>
         </profile>
+        <profile>
+            <id>UI2</id>
+            <properties>
+                <testng.suite.file>${project.build.testOutputDirectory}/UISuite2.xml</testng.suite.file>
+            </properties>
+        </profile>
     </profiles>
 </project>
