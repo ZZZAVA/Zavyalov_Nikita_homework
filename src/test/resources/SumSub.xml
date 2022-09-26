@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="SumSubSuite">
+    <test name="SumSubTests">
+        <groups>
+            <run>
+                <include name="sumSub"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="hw1"></package>
+        </packages>
+    </test>
+</suite>
