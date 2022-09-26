@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="UISuite3">
+    <listeners>
+        <listener class-name="hw4.errorListiner.ScreenShotListener"/>
+    </listeners>
+    <test name="UITests3">
+        <packages>
+            <package name="hw2"/>
+            <package name="hw4.tests.ex1"/>
+            <package name="hw4.tests.ex2"/>
+            <package name="hw4.steps"/>
+        </packages>
+    </test>
+</suite>
