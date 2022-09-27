@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="Using test with Cucumber Framework" verbose="1" >
+    <test name="Homework 5">
+       <packages>
+           <package name="hw5.Users"/>
+       </packages>
+    </test>
+</suite>
